@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mdanasec/portfolios/static/css/main.c514e596.css",
-    "main.js": "/mdanasec/portfolios/static/js/main.6d985571.js",
-    "static/media/MD ANAS.pdf": "/mdanasec/portfolios/static/media/MD ANAS.27c062b4c538dcca609e.pdf",
-    "static/media/anas.png": "/mdanasec/portfolios/static/media/anas.f5a8810f956dcae3dfcf.png",
-    "static/media/education-symbol.jpg": "/mdanasec/portfolios/static/media/education-symbol.4c806b805533217702e2.jpg",
-    "static/media/react icon.png": "/mdanasec/portfolios/static/media/react icon.52de6422409ad1571d1f.png",
-    "static/media/html icons.png": "/mdanasec/portfolios/static/media/html icons.9d40326cd60c3d7b5a3a.png",
-    "index.html": "/mdanasec/portfolios/index.html",
-    "main.c514e596.css.map": "/mdanasec/portfolios/static/css/main.c514e596.css.map",
-    "main.6d985571.js.map": "/mdanasec/portfolios/static/js/main.6d985571.js.map"
+    "main.css": "/portfolio/static/css/main.c514e596.css",
+    "main.js": "/portfolio/static/js/main.5f5de13b.js",
+    "static/media/MD ANAS.pdf": "/portfolio/static/media/MD ANAS.27c062b4c538dcca609e.pdf",
+    "static/media/anas.png": "/portfolio/static/media/anas.f5a8810f956dcae3dfcf.png",
+    "static/media/education-symbol.jpg": "/portfolio/static/media/education-symbol.4c806b805533217702e2.jpg",
+    "static/media/react icon.png": "/portfolio/static/media/react icon.52de6422409ad1571d1f.png",
+    "static/media/html icons.png": "/portfolio/static/media/html icons.9d40326cd60c3d7b5a3a.png",
+    "index.html": "/portfolio/index.html",
+    "main.c514e596.css.map": "/portfolio/static/css/main.c514e596.css.map",
+    "main.5f5de13b.js.map": "/portfolio/static/js/main.5f5de13b.js.map"
   },
   "entrypoints": [
     "static/css/main.c514e596.css",
-    "static/js/main.6d985571.js"
+    "static/js/main.5f5de13b.js"
   ]
 }
