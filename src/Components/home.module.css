@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#head {
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 95px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 0px 0px;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    /* border: 2px solid red; */
+}
+
+.nav {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+
+.IBContainer {
+    min-height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #051F22;
+    /* background: linear-gradient(
+        to right,
+        #EBEFFF 0%,
+        #EBEFFF 50%,
+        #FFFFFF 50%     
+    ); */
+
+}
+
+.IBContainer>.container1 {
+    height: auto;
+    width: 90%;
+  
+}
+.AM{
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.EDContainer{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.Sk{
+    /* background: #051F22;  */
+}
+.Sk>h1{
+    text-align: center;
+    color: #051F22;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+
+.PText {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.PText>h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #051F22;
+    font-size: 45px; 
+    
+}
+.ProjectContainer{
+    height: auto;
+    width: 100%;
+ 
+}
+
+.FooterContainer{
+    width: 100%;
+}
+@media (max-width: 1020px) {
+    .hilightText {
+       /* margin-top: 10px; */
+        /* border: 2px solid red; */
+    }
+    .hilightText>h1{
+        font-weight: bolder;
+        font-family: serif;
+    }
+    .EDContainer{
+        height: auto;
+    }
+}

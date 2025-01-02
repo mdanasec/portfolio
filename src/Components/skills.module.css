@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+/* Container for Skill Boxes */
+#SC {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  background-color: #f4f4f4; 
+  
+}
+
+/* Individual Skill Box */
+.skillBox {
+  background: #051F22; 
+  padding: 30px 20px;
+  width: 220px;
+  height: 60px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  /* background-image: linear-gradient(135deg, #feffff, #ffffff); */
+  /* Subtle gradient background */
+}
+
+/* Hover Effect - Scaling and Shadow */
+.skillBox:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff; 
+  background-image: none; 
+}
+
+/* Skill Title Text Styling */
+.skillBox h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+/* Change color of text on hover */
+.skillBox:hover h3 {
+  color: #2980b9;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) 

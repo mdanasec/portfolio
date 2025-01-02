@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Poppins:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+/* font-family: 'Hind', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+#head {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: 8px black;
+    background: linear-gradient(to right,
+            #EBEFFF 0%,
+            #EBEFFF 50%,
+            #FFFFFF 50%);
+   /* border: 2px solid red; */
+}
+
+.Nav {
+
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+
+#head>.Nav>div>a {
+    text-decoration: none;
+    color: #333333;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size:1.4rem ;
+    font-family: 'Hind', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Titillium Web', sans-serif; */
+
+    position: relative;
+    transition: 0.2s;
+    /* mix-blend-mode: difference; */
+}
+
+#head>div {
+    display: flex;
+    align-items: center;
+    
+   
+
+}
+
+#head>div>.MA {
+    width: 100%;
+    background: linear-gradient(to right, rgb(6, 107, 237), rgb(243, 153, 49), rgb(241, 16, 241));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+    display: none;
+}
+
+
+#head>.Nav>div>a:hover {
+    width: 100%;
+    animation-duration: 8s;
+    /* background-color: #5edae3; */
+    border-bottom: 4px solid #051F22;
+    border-radius: 50%;
+    color: #051F22;
+    left: 0;
+
+}
+
+.b {
+    display: none;
+}
+
+.btnmenu {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #a19e9e;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 3rem;
+    /* border: 2px solid red; */
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #head{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .btnmenu {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        display: flex;
+        position: absolute;
+        top: 2rem;
+        right: 5rem;
+
+    }
+
+    #head>div>.MA {
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: block;
+    }
+
+    .b {
+        display: block;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #a19e9e;
+        text-align: center;
+        font-size: 3rem;
+    
+        
+    }
+
+    .Nav {
+        height: fit-content;
+        position: fixed;
+        top: 0;
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1.5rem;
+        background-color: #6989ea;
+        transition: 0.5s;
+        transform: translateY(-100vh);
+        /* border-bottom-right-radius: 60%; */
+        flex-wrap: wrap;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* border: 2px solid red; */
+    }
+
+    #head>.Nav>div>a {
+        color: white;
+
+    }
+    #head>.Nav>div>a:hover{
+        color: #CE0C3D;
+    }
+
+    .responsive_Nav {
+        transform: none;
+
+    }
+
+
+}

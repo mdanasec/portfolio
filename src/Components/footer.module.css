@@ -1,0 +1,95 @@
+/* Main Container */
+#MainContainer {
+  width: 100%;
+  background-color: #FFFFFF; /* Sleek black background */
+  color: black;
+  /* padding: 40px 20px; */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Flex Container */
+.Container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Section Styling */
+.section {
+  
+  flex: 1;
+  min-width: 220px;
+  margin: 10px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #051F22; /* Light gray for headers */
+  margin-bottom: 15px;
+}
+
+.section a {
+  display: block;
+  font-size: 1rem;
+  color: #ff6f61; /* Highlight color for links */
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.section a:hover {
+  color: #ff3d30; /* Brighter hover color */
+}
+
+.section h3, .section p {
+  
+  font-size: 1rem;
+  color: #051F22; /* Subtle gray for text */
+  line-height: 1.6;
+}
+
+/* Social Icons */
+.social {
+  flex: 1;
+  min-width: 220px;
+}
+
+.social .icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* GitHub Icon Specific Styling */
+.git {
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+}

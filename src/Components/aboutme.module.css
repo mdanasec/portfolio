@@ -1,0 +1,73 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.IntroBodyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#MainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#AMContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AMD {
+  background: #051F22; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  color: white; /* Text color changed for contrast */
+}
+
+.AbMDetails {
+    width: 85%;
+    text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: #e67e22; /* A bright orange to contrast well with the dark background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #d35400; /* Darker orange for hover effect */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
